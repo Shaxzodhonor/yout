@@ -1,0 +1,232 @@
+
+.channel {
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header-img {
+  width: 100%;
+  height: 200px;
+  background-image: url(../../assets/images/channelBackgrImg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+.header-title-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+}
+.header-left img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.header-title {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+  color: #FFFFFF;
+  margin: 0;
+}
+.header-subtitle {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #C2C2C2;
+}
+.header-right button {
+  background: #FF0000;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+}
+
+.site-nav__list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 54px;
+}
+.site-nav__item {
+  margin-right: 50px;
+}
+.site-nav__link {
+  text-decoration: none;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+/* intro */
+.intro {
+  display: flex;
+  align-items: center;
+  margin-bottom: 61px;
+  position: relative;
+}
+.intro-video {
+  width: 380px;
+  height: 220px;
+  background-image: url(../../assets/images/intro-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 14px;
+  margin-right: 32px;
+}
+.intro-title-wrap {
+  width: 370px;
+}
+.intro-title {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 34px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 15px;
+  width: 320px;
+}
+.intro-text {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+.intro-subtitle {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}
+.channel-vedios h3{
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+.recomend-channel {
+  position: absolute;
+  right: 70px;
+  bottom: 42%;
+}
+.recomend-channel span:first-child {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #C2C2C2;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.recomend-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.recomend-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.recomend-list img {
+  border-radius: 50%;
+  display: inline-block;
+}
+.recomend-list li span {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.channel-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  overflow-x: auto;
+}
+.channel-list::-webkit-scrollbar {
+  height: 8px;
+}
+.channel-list::-webkit-scrollbar-thumb {
+  background-color: #3F3F3F;
+  border-radius: 30px;
+}
+
+.channel-list::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.channel-item {
+  margin-right: 30px;
+}
+.channel-vedio {
+  width: 220px;
+  height: 120px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  border-radius: 10px;
+}
+
+
+.channel-vedio-title {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  letter-spacing: 1.1px;
+
+  display: block;
+  width: 220px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.channel-vedio-info {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}

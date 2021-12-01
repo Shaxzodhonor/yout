@@ -1,0 +1,81 @@
+@import './assets/scss/normalize';
+
+/* GENERAL */
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Arial", sans-serif;
+  background-color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.menu-wrap {
+  flex-shrink: 0;
+  background-color: #272727,
+}
+.menu-wrap::-webkit-scrollbar {
+  width: 8px;
+}
+.menu-wrap::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.menu-wrap::-webkit-scrollbar-thumb {
+  width: 8px;
+  background-color: #3f3f3f;
+  border-radius: 30px;
+}
+.subscriptions {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  height: 50px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  letter-spacing: 1.1px;
+  border-bottom: 0.4px solid rgb(58, 58, 58);
+}
+.subscriptions:hover {
+  cursor: pointer;
+  background-color: rgb(61, 58, 58);
+}
+.render-page {
+  color: white;
+  width: 100%;
+   height: 100%;
+    overflow-y: auto;
+}
+
+
+.render-page::-webkit-scrollbar {
+  width: 8px;
+}
+.render-page::-webkit-scrollbar-thumb {
+  background-color: #b1acac;
+  border-radius: 30px;
+}
+
+.render-page::-webkit-scrollbar-track {
+  background-color: transparent;
+}

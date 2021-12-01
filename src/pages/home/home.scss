@@ -1,0 +1,147 @@
+.home-page {
+  background-color: #17171E;
+  padding: 20px;
+  padding-bottom: 37px;
+  overflow-x: auto;
+}
+.dollie-box, .recommended-box {
+  margin-bottom: 40px;
+}
+
+.dollie__header, .recommended__header, .food__header {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.dollie__header-title, .food__header-title {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.dollie__header-title img, .food__header-title img {
+  border-radius: 50%;
+}
+.dollie__title, .recommended__title, .food__title  {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+  color: #FFFFFF;
+  margin-left: 20px;
+  display: inline-block;
+}
+.dollie__vedio-list, .recommended__vedios-list, .food__vedio-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow-x: auto;
+}
+
+  .dollie__vedio-list::-webkit-scrollbar, .recommended__vedios-list::-webkit-scrollbar, .food__vedio-list::-webkit-scrollbar {
+    height: 10px;
+  }
+  .dollie__vedio-list::-webkit-scrollbar-thumb, .recommended__vedios-list::-webkit-scrollbar-thumb, .food__vedio-list::-webkit-scrollbar-thumb {
+    background-color: #6c6e6c;
+    border-radius: 30px;
+  }
+  .dollie__vedio-list li, .recommended__vedio-card, .food__vedio-list li {
+    margin-right: 30px;
+    padding-bottom: 15px;
+  }
+  
+  .dollie__vedio-wrap, .food__vedio-wrap{
+    width: 220px;
+    height: 120px;
+    display: inline-block;
+    border-radius: 14px;
+    background-size: 220px 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .dollie__vedio-list li:nth-child(1) .dollie__vedio-wrap  {
+    background-image: url(../../assets/images/dollie-1.jpg);
+  }
+  .dollie__vedio-list li:nth-child(2) .dollie__vedio-wrap  {
+    background-image: url(../../assets/images/dollie-2.jpg);
+  }
+  .dollie__vedio-list li:nth-child(3) .dollie__vedio-wrap  {
+    background-image: url(../../assets/images/dollie-3.jpg);
+  }
+  .dollie__vedio-list li:nth-child(4) .dollie__vedio-wrap  {
+    background-image: url(../../assets/images/dollie-4.jpg);
+  }
+  .dollie__vedio-list li:nth-child(5) .dollie__vedio-wrap  {
+    background-image: url(../../assets/images/dollie-5.jpg);
+  }
+  .dollie__vedio-list li:nth-child(6) .dollie__vedio-wrap  {
+    background-image: url(../../assets/images/dollie-6.jpg);
+  }  
+
+
+  .food__vedio-list li:nth-child(1) .food__vedio-wrap {
+    background-image: url(../../assets/images/food-1.jpg);
+  }
+  .food__vedio-list li:nth-child(2) .food__vedio-wrap {
+    background-image: url(../../assets/images/food-2.jpg);
+  }
+  .food__vedio-list li:nth-child(3) .food__vedio-wrap {
+    background-image: url(../../assets/images/food-3.jpg);
+  }
+  .food__vedio-list li:nth-child(4) .food__vedio-wrap {
+    background-image: url(../../assets/images/food-4.jpg);
+  }
+  .food__vedio-list li:nth-child(5) .food__vedio-wrap {
+    background-image: url(../../assets/images/food-5.jpg);
+  }
+  .food__vedio-list li:nth-child(6) .food__vedio-wrap {
+    background-image: url(../../assets/images/food-6.jpg);
+  }
+
+
+  .recommended__vedio-wrap {
+    width: 310px;
+    height: 180px;
+    display: inline-block;
+    border-radius: 14px;
+    background-size: 310px 180px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .recommended__vedios-list li:nth-child(1) .recommended__vedio-wrap {
+    background-image: url(../../assets/images/recommended-1.jpg);
+  }
+  .recommended__vedios-list li:nth-child(2) .recommended__vedio-wrap {
+    background-image: url(../../assets/images/recommended-2.jpg);
+  }
+  .recommended__vedios-list li:nth-child(3) .recommended__vedio-wrap {
+    background-image: url(../../assets/images/recommended-3.jpg);
+  }
+  .dollie__vedio-title h4, .recommended__vedio-title-wrap h4, .food__vedio-title h4 {
+    margin: 0;
+    margin-top: 7px;
+    margin-left: 7px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+  .dollie__vedio-subtitle, .recommended__vedio-subtitle-wrap, .food__vedio-subtitle-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .dollie__vedio-subtitle span, .recommended__vedio-subtitle-wrap span, .food__vedio-subtitle span {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+  }
