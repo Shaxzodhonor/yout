@@ -33,8 +33,10 @@ function PlayPage () {
   return (
     <div className="player-page">
     <div className="player-left">
+{/* berlgan apimizda vedio emas img bo'lganligi sababli  shunaqa yomon yo'llardan yurdik  hayot majburladi*/}
       <div className="select-vedio-wrap" style={{padding: '1px', backgroundImage: `url(${photoSrc.url})`,  }}>
       </div>
+
       <h4 className="select-vedio-title">Dude You Re Getting A Telescope</h4>
       <div className="select-vedio-subtitle-wrap">
         <span>123k views</span>
