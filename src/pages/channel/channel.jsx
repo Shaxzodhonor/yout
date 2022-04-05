@@ -14,7 +14,7 @@ function Channel() {
   const {userId} =  useParams();
   const [photos, setPhotos] = useState([]);
 
-  useEffect(async () => {
+  useEffect( () => {
     document.querySelector('.render-page').scrollTo(0, 1);
 
     fetch(`https://jsonplaceholder.typicode.com/users/${userId ? userId : 1}/albums`)
